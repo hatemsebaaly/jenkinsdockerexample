@@ -8,14 +8,16 @@
 		<version>3.0.0-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+	</properties>
 	<groupId>com.hatem</groupId>
 	<artifactId>websocketdemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>websocketdemo</name>
 	<description>Hatem Demo project using Spring Boot and Websocket for PG DevOps Caltech</description>
-	<properties>
-		<java.version>17</java.version>
-	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
